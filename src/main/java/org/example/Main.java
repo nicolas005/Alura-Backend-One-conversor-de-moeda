@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String apiKey = "c15697c5f3a45c28935f0981"; // Substitua pela sua chave da API
+        String apiKey = "c15697c5f3a45c28935f0981";
         String baseCurrency = "USD";
         String urlStr = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + baseCurrency;
 
